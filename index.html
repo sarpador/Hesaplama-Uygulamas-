@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesaplama</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="conteiner">  
+<div class="navbar">
+<h2>Hesaplama Ekranı</h2>
+
+</div>
+
+
+
+    <div id="tutan">
+        <label for="">Ürünün Alış Fiyatı</label>,
+        <br>
+    <input type="number" name="" id="alinan" placeholder=""> 
+        <br>
+        <label for="">KDV %10</label> 
+        
+    <input type="text" name="" id="kdv" placeholder="kdv" disabled>
+   
+     <label for="" style="color: rgb(251, 163, 0);"> Trendyol Komisyonu </label>
+  
+    <input type="text" name="" id="komisyon" placeholder="Komisyon" disabled>
+        <br>
+     <label for="">Kargo Bedeli</label>
+     <br>
+    <input type="text" name="" id="kargo" placeholder="">
+        <br>
+    <label for="">Satılacak Fiyat</label>
+    <br>
+    <input type="number" name="" id="satilan" placeholder="">
+        <br>
+    <label for="">Kazanılan Para (Kr)</label>
+    <br>
+    <input style="color: white;" type="text" name="" id="kazanilan" placeholder="" disabled> 
+    <br>
+    
+    <button id="btn" onclick="hesapla()">HESAPLA</button>
+</div>
+</div>
+<div></div>
+
+
+ <script src="app.js"></script>   
+</body>
+</html>
